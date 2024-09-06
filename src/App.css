@@ -1,0 +1,49 @@
+.gille{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.grllebd{
+  grid-column: span 2 / span 2;
+}
+
+.colonne{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.calculatrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.grille-principale {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.grille-numerique {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grille-operations {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.bouton-egal {
+  grid-column: span 2;
+  background-color: rgb(30 58 138);
+}
